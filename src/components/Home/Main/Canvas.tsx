@@ -1,4 +1,4 @@
-import Panel from "../shared/Panel";
+import Panel from "../../shared/Panel";
 
 function Canvas () {
     return <div>

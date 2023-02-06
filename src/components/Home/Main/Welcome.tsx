@@ -1,4 +1,4 @@
-import Lorem from "../../util/Lorem";
+import Lorem from "../../../util/Lorem";
 
 function Welcome () {
     return <div className="mx-4 my-4">
