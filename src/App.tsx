@@ -1,11 +1,13 @@
 import React from 'react';
-import './App.css';
+import RouteProvider from "./components/unique/RouteProvider";
+import Layout from "./components/routes/Layout";
 
 function App() {
-  return (
-    <div>
-    </div>
-  );
+  return<div>
+      <Layout>
+          <RouteProvider/>
+      </Layout>
+  </div>;
 }
 
 export default App;
