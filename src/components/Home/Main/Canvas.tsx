@@ -1,7 +1,7 @@
 import Panel from "../../shared/Panel";
 import Sketch from "react-p5";
 import p5Types from 'p5';
-import {createRef, Ref, useEffect, useRef} from "react";
+import {useRef} from "react";
 
 function Canvas () {
 
