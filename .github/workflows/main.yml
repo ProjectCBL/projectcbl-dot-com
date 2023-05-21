@@ -3,7 +3,7 @@ name: ProjectCBL Deployment Site
 on:
   push:
     branches:
-      - "main"
+      - 'main'
 
 jobs:
   build:

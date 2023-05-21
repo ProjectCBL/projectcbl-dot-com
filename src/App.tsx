@@ -1,13 +1,15 @@
-import React from 'react';
-import RouteProvider from "./components/unique/RouteProvider";
-import Layout from "./components/routes/Layout";
+import React from 'react'
+import RouteProvider from './components/unique/RouteProvider'
+import Layout from './components/routes/Layout'
 
 function App() {
-  return<div>
+  return (
+    <div>
       <Layout>
-          <RouteProvider/>
+        <RouteProvider />
       </Layout>
-  </div>;
+    </div>
+  )
 }
 
-export default App;
+export default App

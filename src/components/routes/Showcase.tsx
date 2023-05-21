@@ -1,6 +1,5 @@
 function Showcase() {
-    return <div>
-    </div>
+  return <div></div>
 }
 
-export default Showcase;
+export default Showcase

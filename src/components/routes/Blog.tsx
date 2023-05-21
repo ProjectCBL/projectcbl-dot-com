@@ -1,7 +1,5 @@
 function Blog() {
-    return <div className="text-white">
-        hi
-    </div>
+  return <div className="text-white">hi</div>
 }
 
-export default Blog;
+export default Blog

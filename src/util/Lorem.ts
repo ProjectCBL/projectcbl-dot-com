@@ -1,11 +1,11 @@
 interface LoremStructure {
-    small?: string;
-    medium?: string;
-    large?: string;
+  small?: string
+  medium?: string
+  large?: string
 }
 
 const Lorem: LoremStructure = {
-    small: `
+  small: `
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
     do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -15,7 +15,7 @@ const Lorem: LoremStructure = {
     qui officia deserunt mollit anim id est laborum.
     `,
 
-    medium: `
+  medium: `
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
     tempor incididunt ut labore et dolore magna aliqua. Vel turpis nunc eget 
     lorem dolor sed viverra ipsum nunc. Iaculis nunc sed augue lacus. Id 
@@ -30,8 +30,7 @@ const Lorem: LoremStructure = {
     etiam erat. Magnis dis parturient montes nascetur ridiculus mus mauris. Nunc pulvinar 
     sapien et ligula. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. 
     Eros in cursus turpis massa tincidunt.
-    `
+    `,
 }
 
-export default Lorem;
-
+export default Lorem
